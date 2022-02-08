@@ -7,7 +7,7 @@ protected:
 	string description;
 public:
 	Beverage();
-	string getDescription();
+	virtual string getDescription();
 	virtual double cost() = 0;
 };
 
